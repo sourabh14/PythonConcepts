@@ -1,0 +1,8 @@
+Machine Learning
+
+Intro:
+    ML is a subset of AI, where we create models which learns patterns from the data so
+    it can make predictions or decisions
+
+Must have skill set
+

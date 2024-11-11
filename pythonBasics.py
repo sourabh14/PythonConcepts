@@ -29,7 +29,7 @@ print()
 # 3. Conditional Statements
 print("3. Conditional Statements")
 if age >= 18:
-    print(f"{name} is an adult.")
+    print(f"{name} is an adult.")   # formatted output
 else:
     print(f"{name} is not an adult.")
 print()
@@ -87,7 +87,11 @@ print()
 
 # 7. Tuples and Sequences
 print("7. Tuples and Sequences")
+# Tuples are used to store multiple items in a single variable.
+# Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary
 # Tuples are immutable sequences
+# Tuples use less memory and are faster to access than to lists.
+# If you have data that shouldn’t change, you should choose tuple data type over lists. Typically used for fixed collections of items, such as coordinates, database records
 colors = ("red", "green", "blue")  # Tuple
 print("Colors tuple:", colors)
 print("First color:", colors[0])
